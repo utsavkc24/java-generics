@@ -1,6 +1,7 @@
 package com.generics.topics.creatingowngenerics;
 
-public class Cage<E extends Animal> {
+//Make sure it follows this order - E extends ParentClassName & Interface 1 & Interface2 ..... & Interface n
+public class Cage<E extends Animal & Diet & Habitat> {
 
     private E animal;
     private E anotherAnimal;
@@ -27,5 +28,14 @@ public class Cage<E extends Animal> {
 
     public void setAnotherAnimal(E anotherAnimal) {
         this.anotherAnimal = anotherAnimal;
+    }
+
+    //Now by implementing interface Diet and Habitat, we are saying this 'E' is also setting bounds with multiple type
+    public void characteristics() {
+        animal.diet();
+        anotherAnimal.diet();
+
+        animal.habitat();
+        anotherAnimal.habitat();
     }
 }
