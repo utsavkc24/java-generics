@@ -1,6 +1,6 @@
 package com.generics.topics.creatingowngenerics;
 
-public class Cage<E> {
+public class Cage<E extends Animal> {
 
     private E animal;
     private E anotherAnimal;

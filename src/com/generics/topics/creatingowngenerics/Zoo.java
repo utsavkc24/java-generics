@@ -21,5 +21,7 @@ public class Zoo {
         // args, to tell compiler to perform type safety check and hence it will compilation error
 //        Cage<Monkey> anotherMonkeyCageWithCheck = new Cage<>(new Monkey(), new Lion());
 
+        //Below will give compilations error
+//        Cage<String> stringCage = new Cage<String>();
     }
 }

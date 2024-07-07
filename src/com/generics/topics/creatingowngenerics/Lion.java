@@ -1,5 +1,5 @@
 package com.generics.topics.creatingowngenerics;
 
-public class Lion {
+public class Lion extends Animal{
 
 }

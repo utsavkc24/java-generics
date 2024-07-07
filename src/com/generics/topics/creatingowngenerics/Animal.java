@@ -1,4 +1,4 @@
 package com.generics.topics.creatingowngenerics;
 
-public class Monkey extends Animal{
+public class Animal {
 }
