@@ -23,5 +23,6 @@ public class UpperboundWildcard {
 
     private static void printList(List<? extends Number> objectsList) {
         objectsList.forEach(System.out::println);
+//        objectsList.add(3);         //But still by using wildcards, you can read(print) a list but cannot write to that list, hence below line will give compilation errors
     }
 }
