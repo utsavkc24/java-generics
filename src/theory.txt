@@ -1,0 +1,5 @@
+Important references
+1. What is PECS in generics
+https://starriet.medium.com/pecs-in-java-easy-visualization-593bd783ddcb
+
+
